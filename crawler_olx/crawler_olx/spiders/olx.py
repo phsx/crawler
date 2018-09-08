@@ -50,3 +50,4 @@ class OlxSpider(scrapy.Spider):
         ).re("Inserido em: (.*).")
         item['date'] = (date and date[0]) or ''
         yield item
+        #teste
